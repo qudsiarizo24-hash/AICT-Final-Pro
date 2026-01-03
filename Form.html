@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book your trip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="banner">
+    <video autoplay loop muted play-inline>
+        <source src="3578883-uhd_3840_2160_30fps.mp4" type="video/mp4">
+    </video>
+
+      <div class="form-container">
+    <h2>Travel Request Form</h2>
+    <form>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="place">Your Place:</label>
+      <input type="text" id="place" name="place" placeholder="Enter your city/country" required>
+
+      <label for="persons">Number of Persons:</label>
+      <input type="number" id="persons" name="persons" placeholder="Enter number of travelers" required>
+
+      <label for="trip">Trip Name:</label>
+      <input type="text" id="trip" name="trip" placeholder="Enter trip name" required>
+
+      <label for="cities">How many cities do you want to travel?</label>
+      <input type="number" id="cities" name="cities" placeholder="Number of cities" required>
+
+      <label for="historical">Interested in Historical Places?</label>
+      <select id="historical" name="historical" required>
+        <option value="">Select an option</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+
+      <label for="additional">Additional Notes:</label>
+      <textarea id="additional" name="additional" rows="3" placeholder="Any other requests or info"></textarea>
+
+      <button type="submit">Submit Request</button>
+    </form>
+  </div>
+    </div>
+ 
+    
+</body>
+</html>

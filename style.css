@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40));
+    background-position: center;
+    background-size: center;
+
+}
+
+.navbar {
+    width: 90%;
+    padding: 30px; 
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+
+}
+
+.navbar li a:hover {
+    background: white;
+    transition: 0.5s;
+    color: black
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    color: white;
+    top: 45% ;
+    transform: translateY(-50%);
+    text-align: center;
+
+}
+
+.content h1 {
+    margin-top: 80px;
+    font-size: 90px;
+    font-weight: 800;
+
+
+}
+
+.banner video {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+@media(min-aspect-ratio:16/9) {
+    .banner video {
+        width: 100%;
+        height: auto;
+
+    }
+}
+
+.image-body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.image-body.indonasia {
+    background-image: url("./Travel\ Agency/indonesia.jpg");
+}
+
+
+.image-body.turkey {
+    background-image: url("./Travel\ Agency/turkey.jpg");
+}
+
+.UK-image {
+    background-image: url("./Travel\ Agency/UK-image.jpeg");
+}
+
+.image-body.australia {
+    background-image: url("./Travel Agency/Australia.jpg");
+}
+
+.image-body.thailand {
+    background-image: url("./Travel Agency/thailand.jpg");
+}
+
+.image-body.newzeland {
+    background-image: url("./Travel Agency/Newzeland.jpg");
+}
+
+.image-body.italy {
+    background-image: url("./Travel Agency/Italy.jpg");
+}
+
+.image-body.maldives {
+    background-image: url("./Travel Agency/Maldives.jpg");
+}
+
+.image-body.canada {
+    background-image: url("./Travel Agency/Canada.jpg");
+}
+
+.image-body.france {
+    background-image: url("./Travel Agency/France.jpg");
+}
+
+.image-body.USA {
+    background-image: url("./Travel Agency/America.jpg");
+}
+
+.image-body.spain {
+    background-image: url("./Travel Agency/Spain.jpg");
+}
+
+.button-round {
+    width: 200px;
+    padding: 15px;
+    margin: 20px 5px;
+    text-align: center;
+    border-radius: 25px;
+    color: black;
+    border: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.button-round:hover {
+    background: rgb(0, 192, 226);
+    transition: 0.5s;
+    color: white;
+}
+
+.button-round:hover a {
+    color: white;
+}
+.form-container {
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+    .form-container {
+      background: rgba(255, 255, 255, 0.2);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      backdrop-filter: blur(10px);
+      width: 350px;
+    }
+
+    .form-container h2 {
+      text-align: center;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+
+    .form-container label {
+      display: block;
+      margin-bottom: 5px;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .form-container input,
+    .form-container select,
+    .form-container textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      outline: none;
+      background: rgba(255, 255, 255, 0.8);
+    }
+
+    .form-container textarea {
+      resize: vertical;
+    }
+
+    .form-container button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      background-color: #ff6600;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .form-container button:hover {
+      background-color: #ff4500;
+    }
+     
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+    .package {
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 20px 25px;
+      margin-bottom: 20px;
+      box-shadow: 0px 5px 15px rgba(0,0,0,0.08);
+    }
+    .package h2 {
+      margin-bottom: 10px;
+    }
+    .tag {
+      font-weight: bold;
+      opacity: 0.8;
+    }
+    ul {
+      margin-top: 10px;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    .note {
+      margin-top: 10px;
+      font-style: italic;
+      color: #444;
+    }
